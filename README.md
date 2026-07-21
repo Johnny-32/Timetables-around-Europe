@@ -1,6 +1,9 @@
 # Timetables around Europe
 This projects aims to show public transport timetables from all around Europe and their properties.
 
+I think it will best to have one page with a map on top and summarised in a table below with different characteristics of timetables  
+and a page specific to either a style of timetables or how each transit agency communicates their times of departures pretty differently to each other.
+
 ## List of included timetables (buses):
 - Berlin BVG - printed at the bus stop and line course online
 - Madrid EMT - *website not working*
