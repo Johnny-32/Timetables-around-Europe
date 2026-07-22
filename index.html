@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <menu name="viewport" content="width=device-width, initial-scale=1.0"></menu>
     <title>Timetables around Europe</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
@@ -26,10 +27,19 @@
             </div>
         </div>
     </nav>
-    <main class="container d-flex flex-column align-items-center">
-        <h1 class="p-2 mb-3">Timetables around europe</h1>
-        <div id="map" class="p-3 border border-3 border-secondary rounded-4" style="width: 100%; aspect-ratio: 1;"></div>
-
+    <main>
+        <section class="full-screen-section d-flex align-items-center justify-content-center py-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h1 class="p-2 mb-3">Timetables around europe</h1>
+                        <div id="map" class="p-3 border border-3 border-secondary rounded-4 w-100"
+                            style="aspect-ratio: 1;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"

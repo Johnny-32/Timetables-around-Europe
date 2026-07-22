@@ -1,0 +1,11 @@
+:root {
+  --nav-height: 60px;
+}
+
+.navbar {
+  height: var(--nav-height);
+}
+
+.full-screen-section {
+  min-height: calc(100dvh - var(--nav-height));
+}
