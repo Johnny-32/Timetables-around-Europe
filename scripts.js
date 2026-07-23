@@ -18,8 +18,17 @@ let amsterdamMarker = L.marker([52.372778, 4.893611]).addTo(map).bindPopup("Amst
 let warsawMarker = L.marker([52.23, 21.011111]).addTo(map).bindPopup("Warsaw");
 let parisMarker = L.marker([48.8567, 2.3522]).addTo(map).bindPopup("Paris");
 
+// Quicker map refresh
 const mapElement = document.getElementById('map');
 const observer = new ResizeObserver(() => {
   map.invalidateSize();
 });
 observer.observe(mapElement);
+
+// Creating a carrousel
+// const myCarouselElement = document.querySelector('#myCarousel')
+
+// const carousel = new bootstrap.Carousel(myCarouselElement, {
+//   interval: 2000,
+//   touch: false
+// })
