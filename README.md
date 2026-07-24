@@ -16,14 +16,14 @@ and a page specific to either a style of timetables or how each transit agency c
 - London TFL - (how the tube doesn't have a typical timetable, kinda different for buses and the printed ones)
 - Amsterdam GVB - buses **(this could be a template for my timetables)**, (how they have online and printable ones)
 - Warsaw ZTM - buses and also metro **(this could inspire me in terms of frequencies)**
-- Paris RATP - bus (how they have only online stop and line search (simillar to London))
+- Paris RATP - bus line 101 for infrequent line and line 120 for a frequent line
 - Lublin MPK - ???
 
 ## Categories of timetables
-- Only online and only next departures - Barcelona, London (kinda), Paris, Berlin kinda
+- Only online and only next departures - Barcelona, Warsaw, Berlin kinda, London (kinda),
 - Hours as one column - Berlin (on the bus stop), Vienna, Amsterdam, Warsaw
-- Each departure as a separate cell - Copenhagen, Odense, Stockholm (bus)
-- That include frequencies - ...
+- Each departure as a separate cell - Copenhagen, Odense, Stockholm (bus), Paris line 101
+- That include frequencies - Paris line 120, London on the stop, Berlin online, ...
 - That group hours with the same couple minutes - ...
 - That have all stops on one route on the same timetable - ...
 - That have the most important stops on one route on the same timetable - ...
