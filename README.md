@@ -20,7 +20,7 @@ and a page specific to either a style of timetables or how each transit agency c
 - Lublin MPK - ???
 
 ## Categories of timetables
-- Only online and only next departures - Barcelona, London (kinda), Paris, Berlin kinda
+- Only online and only next departures - Barcelona, Warsaw, Berlin kinda, London (kinda),
 - Hours as one column - Berlin (on the bus stop), Vienna, Amsterdam, Warsaw
 - Each departure as a separate cell - Copenhagen, Odense, Stockholm (bus)
 - That include frequencies - ...
