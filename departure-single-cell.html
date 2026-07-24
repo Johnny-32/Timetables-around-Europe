@@ -1,0 +1,166 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetables around Europe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+
+<body class="text-light" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class=" container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Map</a>
+                    <a class="nav-link" href="#">Placeholder</a>
+                    <a class="nav-link" href="#">Data</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <h1 class="p-2 m-3 text-center">Each departure as a single cell</h1>
+                        <div class="p-4 rounded-4 bg-body-tertiary">
+                            <h2 class="mb-4 text-center">Introduction</h2>
+                            <p>This is the most typical timetable style and for a good reason, it's intuitive to read
+                                and although it takes up more space than hours as one column style, it's ideal for
+                                making a single timetable for a single line, to do it the most important stops are
+                                selected and their departures shown, for the rest of the stops we can look at the route
+                                diagram or something simillar.
+                                grouped together.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <h2 class="p-2 m-3 text-center">Examples</h2>
+                        <div class="p-4 rounded-4 bg-body-tertiary">
+                            <h3 class="text">Copenhagen</h3>
+                            <figure class="figure">
+                                <img src="img/Copenhagen_timetable.png" class="pt-4 pb-2 img-fluid"
+                                    alt="Copenhagen timetable">
+                                <figcaption class="figure-caption">Screenshot of a DOT line 131 - between Rødovre St.
+                                    and Tingbjerg - Screenshot made on 24/07.2026
+                                </figcaption>
+                            </figure>
+                            <p>
+                                Copenhagen has a separate timetable for each route, the most important stops are picked
+                                and displayed as column headers, we can approximate departure time for each stop using
+                                the stop list to the right. Hours with the same couple minutes are grouped and displayed
+                                in a rectangle, shortening the timetable.
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="p-4 rounded-4 bg-body-tertiary">
+                            <h3 class="text">Odense</h3>
+                            <figure class="figure">
+                                <img src="img/Odense_timetable.png" class="pt-4 pb-2 img-fluid" alt="Odense timetable">
+                                <figcaption class="figure-caption">Screenshot of a FynBus line 45/46 - between
+                                    Bolbro and Hauges Plads/Tarup Center - Sundays are skipped - Screenshot made on
+                                    24/07.2026
+                                </figcaption>
+                            </figure>
+                            <p>
+                                Odense has a separate timetable for each route (or routes if a couple are simillar). The
+                                leftmost column represents the line number for each row. On top there is a list of
+                                stops simillar to Copenhagen timetable (I didn't put it, beacuse it would take too much
+                                space).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="p-4 rounded-4 bg-body-tertiary">
+                            <h3 class="text">Oslo</h3>
+                            <figure class="figure">
+                                <img src="img/Oslo_timetable.png" class="pt-4 pb-2 img-fluid" alt="Oslo timetable">
+                                <figcaption class="figure-caption"> Screenshot of a Ruter line 30 - between
+                                    Bygdøy - Nydalen - between Monday and Friday - Screenshot made on 24/07.2026
+                                </figcaption>
+                            </figure>
+                            <p>
+                                Oslo has a separate timetable for groups of routes based on the first digit (ex. 30-37),
+                                each route has it's own two pages, the first is a timetable shown on the screenshot and
+                                the second is a stop list that has a column for each color of the timetable (here there
+                                would be three columns - blue, white and green). The stops are also grouped by their
+                                shared minutes with a "every x minutes" text on the leftmost column.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="p-4 rounded-4 bg-body-tertiary">
+                            <h3 class="text">Stockholm</h3>
+                            <figure class="figure">
+                                <img src="img/Stockholm_timetable.png" class="pt-4 pb-2 img-fluid"
+                                    alt="Stockholm timetable">
+                                <figcaption class="figure-caption"> Screenshot of a SL line 506 - between
+                                    Karolinska sjukhuset and Hallonbergen - between Monday and Friday - Screenshot made
+                                    on 24/07.2026
+                                </figcaption>
+                            </figure>
+                            <p>
+                                Stockholm has a separate timetable for each route, the most important stops are picked
+                                and displayed as the first column, we can approximate departure time for each stop using
+                                the stop list on top. Hours with the same couple minutes are not grouped, which makes
+                                the timetables pretty long, when the line has a lot of departures (for ex. timetable for
+                                line 1 not shown here has 8 pages).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="p-4 rounded-4 bg-body-tertiary">
+                            <h3 class="text">Paris (short routes)</h3>
+                            <figure class="figure">
+                                <img src="img/Paris_timetable.png" class="pt-4 pb-2 img-fluid" alt="Paris timetable">
+                                <figcaption class="figure-caption"> Screenshot of a RATP line 101 - between
+                                    Joinville Le Pont RER and Camping International - between Monday and Friday -
+                                    Screenshot made on 24/07.2026
+                                </figcaption>
+                            </figure>
+                            <p>
+                                Less frequent routes in Paris have a separate timetable for each route, all stops are
+                                displayed as the first column. On top there is also a simplified map of the route.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
