@@ -25,3 +25,8 @@ and a page specific to either a style of timetables or how each transit agency c
 - Each departure as a separate cell - Copenhagen, Odense, Oslo, Stockholm (bus), Paris line 101
 - That include frequencies - Paris line 120, London on the stop, Berlin online, ...
 - Timetables that I think are the most interesting - Berlin online, ...
+
+## To do:
+- Remove unneccesary list elements in index.html
+- Add a better introduction to index.html
+- Think about better formatting
