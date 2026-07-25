@@ -15,7 +15,7 @@ and a page specific to either a style of timetables or how each transit agency c
 - Stockholm SL - buses and t-bana
 - London TFL - (how the tube doesn't have a typical timetable, kinda different for buses and the printed ones)
 - Amsterdam GVB - buses **(this could be a template for my timetables)**, (how they have online and printable ones)
-- Warsaw ZTM - buses and also metro **(this could inspire me in terms of frequencies)**
+- Warsaw ZTM - buses and also metro **(this could inspire me in terms of frequencies and search engine for timetables)**
 - Paris RATP - bus line 101 for infrequent line and line 120 for a frequent line
 - Lublin MPK - ???
 
@@ -23,5 +23,10 @@ and a page specific to either a style of timetables or how each transit agency c
 - Only online and only next departures - Barcelona, Warsaw, Berlin kinda, London (kinda),
 - Hours as one column - Berlin (on the bus stop), Vienna, Amsterdam, Warsaw
 - Each departure as a separate cell - Copenhagen, Odense, Oslo, Stockholm (bus), Paris line 101
-- That include frequencies - Paris line 120, London on the stop, Berlin online, ...
+- That include frequencies - Paris line 120, Berlin online, London on the stop ...
 - Timetables that I think are the most interesting - Berlin online, ...
+
+## To do:
+- Remove unneccesary list elements in index.html
+- Add a better introduction to index.html
+- Think about better formatting
