@@ -27,6 +27,7 @@ and a page specific to either a style of timetables or how each transit agency c
 - Timetables that I think are the most interesting - Berlin online, ...
 
 ## To do:
+- Check integrity and nomenclature
 - Remove unneccesary list elements in index.html
 - Add a better introduction to index.html
 - Think about better formatting
