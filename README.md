@@ -22,5 +22,6 @@ This projects aims to show public transport timetables from all around Europe, t
 - That include frequencies - Paris line 120, Berlin online, London on the stop, Stockholm metro
 
 ## To do:
+- Fox table responsiveness
 - Add a better introduction to index.html
 - Think about better formatting
