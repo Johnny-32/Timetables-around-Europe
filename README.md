@@ -22,6 +22,7 @@ This projects aims to show public transport timetables from all around Europe, t
 - Timetables that I think are the most interesting - Berlin online, ...
 
 ## To do:
+- add a table with the following columns: first column, first row, does it include frequencies, is this timetable one for each stop or each line, does it group neighboring departures, 
 - Add Munich - maybe in a separate html file
 - Add a better introduction to index.html
 - Think about better formatting
