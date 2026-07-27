@@ -1,14 +1,10 @@
 # Timetables around Europe
-This projects aims to show public transport timetables from all around Europe and their properties.
-
-I think it will best to have one page with a map on top and summarised in a table below with different characteristics of timetables  
-and a page specific to either a style of timetables or how each transit agency communicates their times of departures pretty differently to each other.
+This projects aims to show public transport timetables from all around Europe, that I think are interesting.
 
 ## List of included timetables (buses):
 - Berlin BVG - printed at the bus stop and line course online
-- Madrid EMT - *website not working*
 - Vienna Wiener Linien - buses that don't run very frequently and u-bahn
-- Copenhagen DOT - bus and metro
+- Copenhagen DOT - bus
 - Odense FynBus - bus (for seeing one timetable with multiple lines)
 - Oslo Ruter - bus (nice to look at and for seeing how they handle longer rush hour travel times)
 - Barcelona TMB - how they don't have typical timetbales
@@ -17,7 +13,6 @@ and a page specific to either a style of timetables or how each transit agency c
 - Amsterdam GVB - buses **(this could be a template for my timetables)**, (how they have online and printable ones)
 - Warsaw ZTM - buses and also metro **(this could inspire me in terms of frequencies and search engine for timetables)**
 - Paris RATP - bus line 101 for infrequent line and line 120 for a frequent line
-- Lublin MPK - ???
 
 ## Categories of timetables
 - Only online and only next departures - Barcelona, Warsaw, Berlin kinda, London (kinda),
@@ -27,7 +22,6 @@ and a page specific to either a style of timetables or how each transit agency c
 - Timetables that I think are the most interesting - Berlin online, ...
 
 ## To do:
-- Check integrity and nomenclature
-- Remove unneccesary list elements in index.html
+- Add Munich - maybe in a separate html file
 - Add a better introduction to index.html
 - Think about better formatting
