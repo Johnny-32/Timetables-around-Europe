@@ -13,6 +13,7 @@ This projects aims to show public transport timetables from all around Europe, t
 - Amsterdam GVB - buses **(this could be a template for my timetables)**, (how they have online and printable ones)
 - Warsaw ZTM - buses and also metro **(this could inspire me in terms of frequencies and search engine for timetables)**
 - Paris RATP - bus line 101 for infrequent line and line 120 for a frequent line
+- Munich - bus
 
 ## Categories of timetables
 - Only online and only next departures - Barcelona, Warsaw, Berlin kinda, London (kinda),
