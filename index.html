@@ -33,8 +33,8 @@
                         <div class="p-4 rounded-4 bg-body-tertiary">
                             <h2 class="mb-4">Categories of timetables</h2>
                             <div class="list-group text-start bg-body-primary">
-                                <a href="only-online.html" class="list-group-item list-group-item-action">
-                                    Only online</a>
+                                <a href="only-non-pdf.html" class="list-group-item list-group-item-action">
+                                    Only non-pdf</a>
                                 <a href="hours-one-column.html" class="list-group-item list-group-item-action">
                                     Hours as one column</a>
                                 <a href="departure-single-cell.html" class="list-group-item list-group-item-action">
@@ -54,140 +54,142 @@
                         <div class="p-4 rounded-4 bg-body-tertiary">
                             <h2 class="mb-4">Table of timetable features</h2>
                             <p>* first in terms of distance to timetable</p>
-                            <table class="table table-bordered table-responsive-md">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>First row*</th>
-                                        <th>First column*</th>
-                                        <th>One, some, all stops</th>
-                                        <th>Grouping dep.</th>
-                                        <th>Frequencies</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="table-group-divider">
-                                    <tr>
-                                        <td>Berlin</td>
-                                        <td>Periods hours</td>
-                                        <td>Line st.</td>
-                                        <td>All</td>
-                                        <td>✅</td>
-                                        <td>✅</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Vienna</td>
-                                        <td>Periods days</td>
-                                        <td>Hours</td>
-                                        <td>One</td>
-                                        <td>❌</td>
-                                        <td>❌</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Copenhagen</td>
-                                        <td>Stops</td>
-                                        <td>Periods days</td>
-                                        <td>Some</td>
-                                        <td>✅</td>
-                                        <td>❌</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Odense</td>
-                                        <td>Stops</td>
-                                        <td>Line nr</td>
-                                        <td>Some</td>
-                                        <td>✅</td>
-                                        <td>❌</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Oslo</td>
-                                        <td>Stops</td>
-                                        <td>Freq. and per.</td>
-                                        <td>Some</td>
-                                        <td>✅</td>
-                                        <td>?</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Barcelona</td>
-                                        <td>Line nr</td>
-                                        <td>Line nr</td>
-                                        <td>One</td>
-                                        <td>❌</td>
-                                        <td>❌</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Stockholm (bus)</td>
-                                        <td>Periods days</td>
-                                        <td>Stops</td>
-                                        <td>Some</td>
-                                        <td>❌</td>
-                                        <td>❌</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Stockholm (metro)</td>
-                                        <td>Periods days</td>
-                                        <td>Stops</td>
-                                        <td>Some/All</td>
-                                        <td>✅</td>
-                                        <td>✅</td>
-                                    </tr>
-                                    <tr>
-                                        <td>London</td>
-                                        <td>First bus</td>
-                                        <td>Periods hours</td>
-                                        <td>One</td>
-                                        <td>✅</td>
-                                        <td>?</td>
-                                    </tr>
-                                    <tr>
-                                        <td>London (on the stop)</td>
-                                        <td>Periods hours</td>
-                                        <td>First bus</td>
-                                        <td>One</td>
-                                        <td>✅</td>
-                                        <td>?</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Amsterdam</td>
-                                        <td>Periods days</td>
-                                        <td>Hours</td>
-                                        <td>One</td>
-                                        <td>❌</td>
-                                        <td>❌</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Warsaw</td>
-                                        <td>Days</td>
-                                        <td>Hours</td>
-                                        <td>One</td>
-                                        <td>❌</td>
-                                        <td>❌</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Paris (infreq.)</td>
-                                        <td>Periods days</td>
-                                        <td>Stops</td>
-                                        <td>All</td>
-                                        <td>❌</td>
-                                        <td>❌</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Paris (freq.)</td>
-                                        <td>Periods days</td>
-                                        <td>Periods hours</td>
-                                        <td>All</td>
-                                        <td>✅</td>
-                                        <td>✅</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Munich</td>
-                                        <td>Periods hours</td>
-                                        <td>Stops</td>
-                                        <td>All</td>
-                                        <td>✅</td>
-                                        <td>❌</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-responsive-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>First row*</th>
+                                            <th>First column*</th>
+                                            <th>One, some, all stops</th>
+                                            <th>Grouping dep.</th>
+                                            <th>Frequencies</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-group-divider">
+                                        <tr>
+                                            <td>Berlin</td>
+                                            <td>Periods hours</td>
+                                            <td>Line st.</td>
+                                            <td>All</td>
+                                            <td>✅</td>
+                                            <td>✅</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Vienna</td>
+                                            <td>Periods days</td>
+                                            <td>Hours</td>
+                                            <td>One</td>
+                                            <td>❌</td>
+                                            <td>❌</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Copenhagen</td>
+                                            <td>Stops</td>
+                                            <td>Periods days</td>
+                                            <td>Some</td>
+                                            <td>✅</td>
+                                            <td>❌</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Odense</td>
+                                            <td>Stops</td>
+                                            <td>Line nr</td>
+                                            <td>Some</td>
+                                            <td>✅</td>
+                                            <td>❌</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Oslo</td>
+                                            <td>Stops</td>
+                                            <td>Freq. and per.</td>
+                                            <td>Some</td>
+                                            <td>✅</td>
+                                            <td>❔</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Barcelona</td>
+                                            <td>Line nr</td>
+                                            <td>Line nr</td>
+                                            <td>One</td>
+                                            <td>❌</td>
+                                            <td>❌</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Stockholm (bus)</td>
+                                            <td>Periods days</td>
+                                            <td>Stops</td>
+                                            <td>Some</td>
+                                            <td>❌</td>
+                                            <td>❌</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Stockholm (metro)</td>
+                                            <td>Periods days</td>
+                                            <td>Stops</td>
+                                            <td>Some/All</td>
+                                            <td>✅</td>
+                                            <td>✅</td>
+                                        </tr>
+                                        <tr>
+                                            <td>London</td>
+                                            <td>First bus</td>
+                                            <td>Periods hours</td>
+                                            <td>One</td>
+                                            <td>✅</td>
+                                            <td>❔</td>
+                                        </tr>
+                                        <tr>
+                                            <td>London (on the stop)</td>
+                                            <td>Periods hours</td>
+                                            <td>First bus</td>
+                                            <td>One</td>
+                                            <td>✅</td>
+                                            <td>❔</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Amsterdam</td>
+                                            <td>Periods days</td>
+                                            <td>Hours</td>
+                                            <td>One</td>
+                                            <td>❌</td>
+                                            <td>❌</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Warsaw</td>
+                                            <td>Days</td>
+                                            <td>Hours</td>
+                                            <td>One</td>
+                                            <td>❌</td>
+                                            <td>❌</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Paris (infreq.)</td>
+                                            <td>Periods days</td>
+                                            <td>Stops</td>
+                                            <td>All</td>
+                                            <td>❌</td>
+                                            <td>❌</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Paris (freq.)</td>
+                                            <td>Periods days</td>
+                                            <td>Periods hours</td>
+                                            <td>All</td>
+                                            <td>✅</td>
+                                            <td>✅</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Munich</td>
+                                            <td>Periods hours</td>
+                                            <td>Stops</td>
+                                            <td>All</td>
+                                            <td>✅</td>
+                                            <td>❌</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
