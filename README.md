@@ -20,8 +20,3 @@ This projects aims to show public transport timetables from all around Europe, t
 - Hours as one column - Berlin (on the bus stop), Vienna, Amsterdam, Warsaw, Munich (kinda)
 - Each departure as a separate cell - Copenhagen, Odense, Oslo, Stockholm (bus), Paris line 101
 - That include frequencies - Paris line 120, Berlin online, London on the stop, Stockholm metro
-
-## To do:
-- Fox table responsiveness
-- Add a better introduction to index.html
-- Think about better formatting
